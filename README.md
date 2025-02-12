@@ -48,3 +48,14 @@ Next time you publish a release this workflow will build and deploy your site :t
 
 Your site will be published to the following URL:
 `https://s-lasch.github.io/qubt-blog`
+
+## For Me
+
+To run this locally, open a new terminal. Make sure to CD into the root of the repo, and then start the server:
+
+```shell
+cd "C:\Users\Steven Lasch\Desktop\qubt-hugo\qubt-blog" && hugo server
+```
+
+Any click the `localhost` link to view the website in a browser. Any changes made to the site will be automatically 
+reloaded without needing to commit/push!
