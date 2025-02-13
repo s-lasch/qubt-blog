@@ -5,7 +5,7 @@
 author:
   name: s-lasch
   image: author.png
-  greeting: "Your new Qubt site :tada:"
+  greeting: "**A personal blog for all things data**"
   icon: ":wave:"
 
 ############################
@@ -14,11 +14,11 @@ author:
 
 links:
   - github: https://github.com/s-lasch/qubt-blog
-  - link: https://github.com/s-lasch/qubt-blog#readme
-  # - website: 
+#  - link: https://github.com/s-lasch/qubt-blog#readme
+  - linkedin: https://linkedin.com/in/steven-l-lasch
+  - website: https://steven-lasch.com#projects
   # - x-twitter: 
-  # - mastodon: 
-  # - linkedin: 
+  # - mastodon:
   # - instagram: 
   # - reddit: 
   # - telegram: 
@@ -52,7 +52,7 @@ links:
   # - strava: 
   # - untappd: 
   # - skype: 
-  # - medium: 
+  - medium: https://medium.com/@stevenlasch17
   # - foursquare: 
   # - apple: 
   # - amazon:
