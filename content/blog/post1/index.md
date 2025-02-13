@@ -6,6 +6,7 @@ date: 2023-11-24
 cardimage: photo1_card.jpeg
 featureimage: photo1.jpeg
 caption: Image caption
+draft: true
 authors:
   - Christian: author.jpeg
 ---

@@ -5,6 +5,7 @@ date: 2023-11-22
 cardimage: photo3_card.jpeg
 featureimage: photo3.jpeg
 caption: "Image caption :tada:"
+draft: true
 authors:
   - John Doe: author.jpeg
 ---
