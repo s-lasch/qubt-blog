@@ -6,7 +6,7 @@ date: 2025-02-13
 cardimage: photo_card.png
 featureimage: photo_card.png
 math: true
-caption: "<i>Image credit: <a href='https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk-sWcGobBWk4A' style='color: #7977e2;'>unsplash.com</a></i>"
+caption: "<i>Image credit: <a href='https://unsplash.com/photos/a-laptop-computer-sitting-on-top-of-a-wooden-desk-sWcGobBWk4A' style='color: #6366f1;', target='blank'>unsplash.com</a></i>"
 ---
 
 ## TLDR
@@ -15,7 +15,10 @@ caption: "<i>Image credit: <a href='https://unsplash.com/photos/a-laptop-compute
 Enjoy!🙂
 
 ## Q-Learning
-As briefly described above, Q-Learning is an RL technique that learns the optimal strategy (called a **policy** in RL) from three distinct elements: the **action space**, the **state space**, and a **reward function**. Interestingly, the "Q" in Q-Learning comes from the act of focusing on the *quality* of each action, and choosing the best action.
+As briefly described above, <a href="https://en.wikipedia.org/wiki/Q-learning" target="blank">Q-Learning</a> is an RL technique that learns the optimal strategy (called a **policy** in RL) from three distinct elements: the **action space**, the **state space**, and a **reward function**. Interestingly, the "Q" in Q-Learning comes from the act of focusing on the *quality* of each action, and choosing the best action.
+
+In its simplest form, the algorithm has a function, \\(Q\\), that calculates the quality of any state-action combination as follows:
+\\[ Q: \mathcal{S} \times \mathcal{A} \rightarrow \\mathbb{R} \\]
 
 ### Actions
 The **action space**, denoted \\(\mathcal{A}\\), refers to the total number of possible actions a learner can take.[^1] The cardinality (size) of \\(\mathcal{A}\\) is determined by the number of actions to consider. In the context of a simulated market, we have 3 possible states: buy, sell, and exit market (going from a long/short position to holding 0 shares). When given some data, the Q-Learner will output a discrete value representing hold, buy, and sell: \\[ \mathcal{A} = \\{0, 1, 2 \\}\\]
