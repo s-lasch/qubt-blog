@@ -30,7 +30,7 @@ These input features must go through some function, \\(f(x)\\), that turns the c
 The function \\(f(x)\\) should also slice the input vector into a number of bins. Each bin is then mapped to an integer. In the image above, feature \\(X_1\\) is put into bin 9, \\(X_2\\) into bin 4, and \\(X_n\\) into bin 2. These integers are then spliced together to create one integer, \\(249\\), that represents this combination of inputs.
 
 ### Reward Function
-Perhaps the most important pillar of a Q-Learner is the **reward function**, \\(\mathcal{R}\\). Of all the pillars, this should be most intuitive, especially for animal trainers. In this context, how do we reward our pets for making favorable decisions when training them to sit, or better yet, do a trick? Do we give them treats immediately after each success, or only once at the very end if they do everything right? 
+Perhaps the most important pillar of a Q-Learner is the **reward function**, \\(R\\). Of all the pillars, this should be most intuitive, especially for animal trainers. In this context, how do we reward our pets for making favorable decisions when training them to sit, or better yet, do a trick? Do we give them treats immediately after each success, or only once at the very end if they do everything right? 
 
 This decision will impact the time it will take for the learner to learn. Lots of questions need to be answered, mainly how do we reward our learner for making good trades, or penalize the learner for making subpar trades? What factors should be considered when making this decision? Do we base it on daily returns, or cumulative return for a prospective trade?
 
