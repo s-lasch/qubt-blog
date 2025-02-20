@@ -5,8 +5,9 @@
 author:
   name: s-lasch
   image: author.png
-  greeting: "**A personal blog for all things data**"
-  icon: ":wave:"
+  greeting: "*A personal blog for all things data and ML*"
+#  icon: ":wave:"
+
 
 ############################
 ## Links
